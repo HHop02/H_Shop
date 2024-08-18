@@ -92,7 +92,7 @@ html{
 
 /* Button style */
 .btn{
-    min-width: 142px;
+    min-width: 124px;
     height: 34px;
     text-decoration: none;
     border: none;
@@ -101,11 +101,12 @@ html{
     padding: 0 12px;
     outline: none;
     cursor: pointer;
-    color: var(--text-color);
+    color: var(--white-color);
     display: flex;
     justify-content: center;
     align-items: center;
     line-height: 1.6rem;
+    background-color: var(--primary-color);
 }
 
 .btn--size-s{
