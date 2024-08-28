@@ -5,7 +5,7 @@
     --text-color:#333;
     --boder-color:#dbdbdb;
     --star-gold-color:#FFce3e;
-
+    --bgc-color:#fafafa; 
     --header-height:120px; 
     --navbar-height: 34px;
     --header-with-search-height:calc(var(--header-height) - var(--navbar-height));
@@ -55,6 +55,13 @@ html{
     padding-right: 5px;
     width: 20% ;
     /* background-color: var(--white-color); */
+}
+
+.grid__column-5{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 50% ;
+    background-color: var(--white-color);
 }
 
 .grid__column-10{
@@ -139,6 +146,14 @@ html{
     font-size: 12px;
     padding: 10px;
 }
+
+.btn--size-l{
+    height: 48px;
+    width: 180px;
+    padding: 0px 20px; 
+    border-radius: 2px;
+}
+
 
 .btn.btn--normal{
     background-color: var(--white-color);    
